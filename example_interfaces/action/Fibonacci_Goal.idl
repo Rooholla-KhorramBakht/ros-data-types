@@ -20,7 +20,7 @@
 module example_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_Goal_ {
+      @final struct Fibonacci_Goal_ {
         int32 order;
       };
     };

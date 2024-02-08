@@ -29,7 +29,7 @@ module rcl_interfaces {
         const octet ERROR_ = 40;
         const octet FATAL_ = 50;
       };
-      @appendable struct Log_ {
+      @final struct Log_ {
         builtin_interfaces::msg::dds_::Time_ stamp;
         octet level;
         string name;

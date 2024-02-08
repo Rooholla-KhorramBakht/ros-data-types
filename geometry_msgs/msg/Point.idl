@@ -20,7 +20,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Point_ {
+      @final struct Point_ {
         double x;
         double y;
         double z;

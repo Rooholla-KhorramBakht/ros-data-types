@@ -23,7 +23,7 @@
 module nav_msgs {
   module msg {
     module dds_ {
-      @appendable struct Path_ {
+      @final struct Path_ {
         std_msgs::msg::dds_::Header_ header;
         sequence<geometry_msgs::msg::dds_::PoseStamped_> poses;
       };

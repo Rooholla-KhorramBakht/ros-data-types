@@ -20,7 +20,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct UInt16_ {
+      @final struct UInt16_ {
         uint16 data;
       };
     };

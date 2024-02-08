@@ -20,7 +20,7 @@
 module shape_msgs {
   module msg {
     module dds_ {
-      @appendable struct MeshTriangle_ {
+      @final struct MeshTriangle_ {
         uint32 vertex_indices[3];
       };
     };

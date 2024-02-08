@@ -22,7 +22,7 @@
 module trajectory_msgs {
   module msg {
     module dds_ {
-      @appendable struct JointTrajectoryPoint_ {
+      @final struct JointTrajectoryPoint_ {
         sequence<double> positions;
         sequence<double> velocities;
         sequence<double> accelerations;

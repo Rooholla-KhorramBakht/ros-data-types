@@ -20,7 +20,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Pose2D_ {
+      @final struct Pose2D_ {
         double x;
         double y;
         double theta;

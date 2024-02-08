@@ -22,7 +22,7 @@
 module map_msgs {
   module srv {
     module dds_ {
-      @appendable struct SaveMap_Request_ {
+      @final struct SaveMap_Request_ {
         std_msgs::msg::dds_::String_ filename;
       };
     };

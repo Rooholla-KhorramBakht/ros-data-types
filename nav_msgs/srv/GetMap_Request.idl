@@ -20,7 +20,7 @@
 module nav_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetMap_Request_ {
+      @final struct GetMap_Request_ {
         octet structure_needs_at_least_one_member;
       };
     };

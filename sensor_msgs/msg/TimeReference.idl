@@ -23,7 +23,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct TimeReference_ {
+      @final struct TimeReference_ {
         std_msgs::msg::dds_::Header_ header;
         builtin_interfaces::msg::dds_::Time_ time_ref;
         string source;

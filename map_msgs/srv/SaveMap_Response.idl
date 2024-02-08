@@ -20,7 +20,7 @@
 module map_msgs {
   module srv {
     module dds_ {
-      @appendable struct SaveMap_Response_ {
+      @final struct SaveMap_Response_ {
         octet structure_needs_at_least_one_member;
       };
     };

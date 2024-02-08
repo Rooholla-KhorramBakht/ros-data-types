@@ -28,7 +28,7 @@ module action_msgs {
         const octet ERROR_UNKNOWN_GOAL_ID_ = 2;
         const octet ERROR_GOAL_TERMINATED_ = 3;
       };
-      @appendable struct CancelGoal_Response_ {
+      @final struct CancelGoal_Response_ {
         octet return_code;
         sequence<action_msgs::msg::dds_::GoalInfo_> goals_canceling;
       };

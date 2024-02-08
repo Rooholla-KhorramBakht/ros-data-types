@@ -23,7 +23,7 @@
 module rcl_interfaces {
   module msg {
     module dds_ {
-      @appendable struct ParameterEvent_ {
+      @final struct ParameterEvent_ {
         builtin_interfaces::msg::dds_::Time_ stamp;
         string node;
         sequence<rcl_interfaces::msg::dds_::Parameter_> new_parameters;

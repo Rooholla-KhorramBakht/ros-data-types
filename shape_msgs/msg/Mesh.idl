@@ -23,7 +23,7 @@
 module shape_msgs {
   module msg {
     module dds_ {
-      @appendable struct Mesh_ {
+      @final struct Mesh_ {
         sequence<shape_msgs::msg::dds_::MeshTriangle_> triangles;
         sequence<geometry_msgs::msg::dds_::Point_> vertices;
       };

@@ -20,7 +20,7 @@
 module sensor_msgs {
   module srv {
     module dds_ {
-      @appendable struct SetCameraInfo_Response_ {
+      @final struct SetCameraInfo_Response_ {
         boolean success;
         string status_message;
       };

@@ -23,7 +23,7 @@
 module lifecycle_msgs {
   module msg {
     module dds_ {
-      @appendable struct TransitionDescription_ {
+      @final struct TransitionDescription_ {
         lifecycle_msgs::msg::dds_::Transition_ transition;
         lifecycle_msgs::msg::dds_::State_ start_state;
         lifecycle_msgs::msg::dds_::State_ goal_state;

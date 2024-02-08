@@ -22,7 +22,7 @@
 module action_msgs {
   module msg {
     module dds_ {
-      @appendable struct GoalStatusArray_ {
+      @final struct GoalStatusArray_ {
         sequence<action_msgs::msg::dds_::GoalStatus_> status_list;
       };
     };

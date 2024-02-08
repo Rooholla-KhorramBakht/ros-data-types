@@ -22,7 +22,7 @@
 module visualization_msgs {
   module msg {
     module dds_ {
-      @appendable struct MarkerArray_ {
+      @final struct MarkerArray_ {
         sequence<visualization_msgs::msg::dds_::Marker_> markers;
       };
     };

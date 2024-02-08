@@ -20,7 +20,7 @@
 module tf2_msgs {
   module action {
     module dds_ {
-      @appendable struct LookupTransform_Feedback_ {
+      @final struct LookupTransform_Feedback_ {
         octet structure_needs_at_least_one_member;
       };
     };

@@ -23,7 +23,7 @@
 module example_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_SendGoal_Request_ {
+      @final struct Fibonacci_SendGoal_Request_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
         example_interfaces::action::dds_::Fibonacci_Goal_ goal;
       };

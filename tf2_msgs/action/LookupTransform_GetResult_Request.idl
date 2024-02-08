@@ -22,7 +22,7 @@
 module tf2_msgs {
   module action {
     module dds_ {
-      @appendable struct LookupTransform_GetResult_Request_ {
+      @final struct LookupTransform_GetResult_Request_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
       };
     };

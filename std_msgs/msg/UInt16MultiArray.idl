@@ -22,7 +22,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct UInt16MultiArray_ {
+      @final struct UInt16MultiArray_ {
         std_msgs::msg::dds_::MultiArrayLayout_ layout;
         sequence<uint16> data;
       };

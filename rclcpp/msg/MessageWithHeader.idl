@@ -22,7 +22,7 @@
 module rclcpp {
   module msg {
     module dds_ {
-      @appendable struct MessageWithHeader_ {
+      @final struct MessageWithHeader_ {
         rclcpp::msg::dds_::Header_ header;
       };
     };

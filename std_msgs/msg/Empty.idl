@@ -20,7 +20,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct Empty_ {
+      @final struct Empty_ {
         octet structure_needs_at_least_one_member;
       };
     };

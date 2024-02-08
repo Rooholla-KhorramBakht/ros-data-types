@@ -34,7 +34,7 @@ module actionlib_msgs {
         const octet RECALLED_ = 8;
         const octet LOST_ = 9;
       };
-      @appendable struct GoalStatus_ {
+      @final struct GoalStatus_ {
         actionlib_msgs::msg::dds_::GoalID_ goal_id;
         octet status;
         string text;

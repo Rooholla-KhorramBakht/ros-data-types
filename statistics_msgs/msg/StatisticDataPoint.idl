@@ -20,7 +20,7 @@
 module statistics_msgs {
   module msg {
     module dds_ {
-      @appendable struct StatisticDataPoint_ {
+      @final struct StatisticDataPoint_ {
         octet data_type;
         double data;
       };

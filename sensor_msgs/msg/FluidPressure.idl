@@ -22,7 +22,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct FluidPressure_ {
+      @final struct FluidPressure_ {
         std_msgs::msg::dds_::Header_ header;
         double fluid_pressure;
         double variance;

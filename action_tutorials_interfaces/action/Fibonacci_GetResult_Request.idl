@@ -22,7 +22,7 @@
 module action_tutorials_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_GetResult_Request_ {
+      @final struct Fibonacci_GetResult_Request_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
       };
     };

@@ -23,7 +23,7 @@
 module nav_msgs {
   module msg {
     module dds_ {
-      @appendable struct OccupancyGrid_ {
+      @final struct OccupancyGrid_ {
         std_msgs::msg::dds_::Header_ header;
         nav_msgs::msg::dds_::MapMetaData_ info;
         sequence<octet> data;

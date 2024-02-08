@@ -22,7 +22,7 @@
 module test_communication {
   module msg {
     module dds_ {
-      @appendable struct FieldsWithSameType_ {
+      @final struct FieldsWithSameType_ {
         test_msgs::msg::dds_::BasicTypes_ basic_types_values1;
         test_msgs::msg::dds_::BasicTypes_ basic_types_values2;
       };

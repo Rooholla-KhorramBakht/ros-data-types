@@ -22,7 +22,7 @@
 module map_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetMapROI_Response_ {
+      @final struct GetMapROI_Response_ {
         nav_msgs::msg::dds_::OccupancyGrid_ sub_map;
       };
     };

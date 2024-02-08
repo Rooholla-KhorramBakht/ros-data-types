@@ -26,7 +26,7 @@ module sensor_msgs {
         const octet ULTRASOUND_ = 0;
         const octet INFRARED_ = 1;
       };
-      @appendable struct Range_ {
+      @final struct Range_ {
         std_msgs::msg::dds_::Header_ header;
         octet radiation_type;
         float field_of_view;

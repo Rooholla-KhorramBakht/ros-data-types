@@ -22,7 +22,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct Float32MultiArray_ {
+      @final struct Float32MultiArray_ {
         std_msgs::msg::dds_::MultiArrayLayout_ layout;
         sequence<float> data;
       };

@@ -22,7 +22,7 @@
 module libstatistics_collector {
   module msg {
     module dds_ {
-      @appendable struct DummyMessage_ {
+      @final struct DummyMessage_ {
         std_msgs::msg::dds_::Header_ header;
       };
     };

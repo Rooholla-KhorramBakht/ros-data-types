@@ -20,7 +20,7 @@
 module turtlesim {
   module action {
     module dds_ {
-      @appendable struct RotateAbsolute_Feedback_ {
+      @final struct RotateAbsolute_Feedback_ {
         float remaining;
       };
     };

@@ -23,7 +23,7 @@
 module test_msgs {
   module action {
     module dds_ {
-      @appendable struct NestedMessage_SendGoal_Request_ {
+      @final struct NestedMessage_SendGoal_Request_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
         test_msgs::action::dds_::NestedMessage_Goal_ goal;
       };

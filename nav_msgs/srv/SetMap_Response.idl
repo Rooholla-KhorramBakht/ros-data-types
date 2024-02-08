@@ -20,7 +20,7 @@
 module nav_msgs {
   module srv {
     module dds_ {
-      @appendable struct SetMap_Response_ {
+      @final struct SetMap_Response_ {
         boolean success;
       };
     };

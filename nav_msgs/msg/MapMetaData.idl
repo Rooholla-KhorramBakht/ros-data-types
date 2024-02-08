@@ -23,7 +23,7 @@
 module nav_msgs {
   module msg {
     module dds_ {
-      @appendable struct MapMetaData_ {
+      @final struct MapMetaData_ {
         builtin_interfaces::msg::dds_::Time_ map_load_time;
         float resolution;
         uint32 width;

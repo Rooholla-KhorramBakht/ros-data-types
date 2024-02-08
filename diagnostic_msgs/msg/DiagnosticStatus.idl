@@ -28,7 +28,7 @@ module diagnostic_msgs {
         const octet ERROR_ = 2;
         const octet STALE_ = 3;
       };
-      @appendable struct DiagnosticStatus_ {
+      @final struct DiagnosticStatus_ {
         octet level;
         string name;
         string message;

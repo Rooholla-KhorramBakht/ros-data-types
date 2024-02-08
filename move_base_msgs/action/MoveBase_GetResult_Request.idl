@@ -22,7 +22,7 @@
 module move_base_msgs {
   module action {
     module dds_ {
-      @appendable struct MoveBase_GetResult_Request_ {
+      @final struct MoveBase_GetResult_Request_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
       };
     };

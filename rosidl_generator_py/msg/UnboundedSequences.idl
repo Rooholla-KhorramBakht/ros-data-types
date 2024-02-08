@@ -24,7 +24,7 @@
 module rosidl_generator_py {
   module msg {
     module dds_ {
-      @appendable struct UnboundedSequences_ {
+      @final struct UnboundedSequences_ {
         sequence<boolean> bool_values;
         sequence<octet> byte_values;
         sequence<octet> char_values;

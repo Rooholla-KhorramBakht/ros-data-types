@@ -20,7 +20,7 @@
 module turtlesim {
   module srv {
     module dds_ {
-      @appendable struct Spawn_Request_ {
+      @final struct Spawn_Request_ {
         float x;
         float y;
         float theta;

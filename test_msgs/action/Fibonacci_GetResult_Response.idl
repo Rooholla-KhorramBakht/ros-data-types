@@ -22,7 +22,7 @@
 module test_msgs {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_GetResult_Response_ {
+      @final struct Fibonacci_GetResult_Response_ {
         octet status;
         test_msgs::action::dds_::Fibonacci_Result_ result;
       };

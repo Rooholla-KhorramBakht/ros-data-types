@@ -22,7 +22,7 @@
 module rcl_interfaces {
   module msg {
     module dds_ {
-      @appendable struct Parameter_ {
+      @final struct Parameter_ {
         string name;
         rcl_interfaces::msg::dds_::ParameterValue_ value;
       };

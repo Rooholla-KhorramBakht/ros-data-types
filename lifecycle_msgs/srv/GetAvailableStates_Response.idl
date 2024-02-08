@@ -22,7 +22,7 @@
 module lifecycle_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetAvailableStates_Response_ {
+      @final struct GetAvailableStates_Response_ {
         sequence<lifecycle_msgs::msg::dds_::State_> available_states;
       };
     };

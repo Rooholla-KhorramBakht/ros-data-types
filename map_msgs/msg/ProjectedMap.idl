@@ -22,7 +22,7 @@
 module map_msgs {
   module msg {
     module dds_ {
-      @appendable struct ProjectedMap_ {
+      @final struct ProjectedMap_ {
         nav_msgs::msg::dds_::OccupancyGrid_ map;
         double min_z;
         double max_z;

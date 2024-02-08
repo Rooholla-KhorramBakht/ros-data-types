@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct PoseWithCovarianceStamped_ {
+      @final struct PoseWithCovarianceStamped_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::PoseWithCovariance_ pose;
       };

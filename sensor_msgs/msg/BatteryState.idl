@@ -45,7 +45,7 @@ module sensor_msgs {
         const octet POWER_SUPPLY_TECHNOLOGY_NICD_ = 5;
         const octet POWER_SUPPLY_TECHNOLOGY_LIMN_ = 6;
       };
-      @appendable struct BatteryState_ {
+      @final struct BatteryState_ {
         std_msgs::msg::dds_::Header_ header;
         float voltage;
         float temperature;

@@ -22,7 +22,7 @@
 module test_msgs {
   module action {
     module dds_ {
-      @appendable struct NestedMessage_GetResult_Response_ {
+      @final struct NestedMessage_GetResult_Response_ {
         octet status;
         test_msgs::action::dds_::NestedMessage_Result_ result;
       };

@@ -20,7 +20,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Quaternion_ {
+      @final struct Quaternion_ {
         double x;
         double y;
         double z;

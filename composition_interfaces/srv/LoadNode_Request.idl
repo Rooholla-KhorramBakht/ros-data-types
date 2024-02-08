@@ -22,7 +22,7 @@
 module composition_interfaces {
   module srv {
     module dds_ {
-      @appendable struct LoadNode_Request_ {
+      @final struct LoadNode_Request_ {
         string package_name;
         string plugin_name;
         string node_name;

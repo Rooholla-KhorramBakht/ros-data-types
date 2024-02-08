@@ -20,7 +20,7 @@
 module std_srvs {
   module srv {
     module dds_ {
-      @appendable struct SetBool_Response_ {
+      @final struct SetBool_Response_ {
         boolean success;
         string message;
       };

@@ -23,7 +23,7 @@
 module turtlesim {
   module action {
     module dds_ {
-      @appendable struct RotateAbsolute_FeedbackMessage_ {
+      @final struct RotateAbsolute_FeedbackMessage_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
         turtlesim::action::dds_::RotateAbsolute_Feedback_ feedback;
       };

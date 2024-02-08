@@ -20,7 +20,7 @@
 module tf2_msgs {
   module srv {
     module dds_ {
-      @appendable struct FrameGraph_Response_ {
+      @final struct FrameGraph_Response_ {
         string frame_yaml;
       };
     };

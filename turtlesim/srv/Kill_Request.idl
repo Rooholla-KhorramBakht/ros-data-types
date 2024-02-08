@@ -20,7 +20,7 @@
 module turtlesim {
   module srv {
     module dds_ {
-      @appendable struct Kill_Request_ {
+      @final struct Kill_Request_ {
         string name;
       };
     };

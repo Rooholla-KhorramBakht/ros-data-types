@@ -23,7 +23,7 @@
 module rcl_interfaces {
   module msg {
     module dds_ {
-      @appendable struct ParameterDescriptor_ {
+      @final struct ParameterDescriptor_ {
         string name;
         octet type;
         string description;

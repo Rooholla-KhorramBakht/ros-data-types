@@ -20,7 +20,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct Int16_ {
+      @final struct Int16_ {
         int16 data;
       };
     };

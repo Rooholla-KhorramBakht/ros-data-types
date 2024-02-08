@@ -22,7 +22,7 @@
 module test_msgs {
   module msg {
     module dds_ {
-      @appendable struct Nested_ {
+      @final struct Nested_ {
         test_msgs::msg::dds_::BasicTypes_ basic_types_value;
       };
     };

@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Pose_ {
+      @final struct Pose_ {
         geometry_msgs::msg::dds_::Point_ position;
         geometry_msgs::msg::dds_::Quaternion_ orientation;
       };

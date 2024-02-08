@@ -29,7 +29,7 @@ module tf2_msgs {
         const octet TIMEOUT_ERROR_ = 5;
         const octet TRANSFORM_ERROR_ = 6;
       };
-      @appendable struct TF2Error_ {
+      @final struct TF2Error_ {
         octet error;
         string error_string;
       };

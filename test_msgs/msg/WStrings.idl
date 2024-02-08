@@ -20,7 +20,7 @@
 module test_msgs {
   module msg {
     module dds_ {
-      @appendable struct WStrings_ {
+      @final struct WStrings_ {
         wstring wstring_value;
         wstring wstring_value_default1;
         wstring wstring_value_default2;

@@ -27,7 +27,7 @@ module visualization_msgs {
         const octet KEEP_ALIVE_ = 0;
         const octet UPDATE_ = 1;
       };
-      @appendable struct InteractiveMarkerUpdate_ {
+      @final struct InteractiveMarkerUpdate_ {
         string server_id;
         uint64 seq_num;
         octet type;

@@ -45,7 +45,7 @@ module visualization_msgs {
         const int32 DELETE_ = 2;
         const int32 DELETEALL_ = 3;
       };
-      @appendable struct Marker_ {
+      @final struct Marker_ {
         std_msgs::msg::dds_::Header_ header;
         string ns;
         int32 id;

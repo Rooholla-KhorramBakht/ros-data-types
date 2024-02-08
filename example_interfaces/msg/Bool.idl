@@ -20,7 +20,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct Bool_ {
+      @final struct Bool_ {
         boolean data;
       };
     };

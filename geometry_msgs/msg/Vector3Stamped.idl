@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Vector3Stamped_ {
+      @final struct Vector3Stamped_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::Vector3_ vector;
       };

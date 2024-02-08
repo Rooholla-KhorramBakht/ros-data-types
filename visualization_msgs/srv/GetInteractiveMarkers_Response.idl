@@ -22,7 +22,7 @@
 module visualization_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetInteractiveMarkers_Response_ {
+      @final struct GetInteractiveMarkers_Response_ {
         uint64 sequence_number;
         sequence<visualization_msgs::msg::dds_::InteractiveMarker_> markers;
       };

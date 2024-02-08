@@ -20,7 +20,7 @@
 module turtlesim {
   module msg {
     module dds_ {
-      @appendable struct Pose_ {
+      @final struct Pose_ {
         float x;
         float y;
         float theta;

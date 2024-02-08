@@ -20,7 +20,7 @@
 module rqt_py_common {
   module msg {
     module dds_ {
-      @appendable struct Val_ {
+      @final struct Val_ {
         double floats[5];
       };
     };

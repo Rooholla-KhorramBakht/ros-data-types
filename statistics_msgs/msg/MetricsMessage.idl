@@ -23,7 +23,7 @@
 module statistics_msgs {
   module msg {
     module dds_ {
-      @appendable struct MetricsMessage_ {
+      @final struct MetricsMessage_ {
         string measurement_source_name;
         string metrics_source;
         string unit;

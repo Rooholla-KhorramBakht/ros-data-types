@@ -20,7 +20,7 @@
 module example_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_Result_ {
+      @final struct Fibonacci_Result_ {
         sequence<int32> sequence_;
       };
     };

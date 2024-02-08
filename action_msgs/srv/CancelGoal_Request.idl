@@ -22,7 +22,7 @@
 module action_msgs {
   module srv {
     module dds_ {
-      @appendable struct CancelGoal_Request_ {
+      @final struct CancelGoal_Request_ {
         action_msgs::msg::dds_::GoalInfo_ goal_info;
       };
     };

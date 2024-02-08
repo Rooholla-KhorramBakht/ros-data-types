@@ -23,7 +23,7 @@
 module tf2_msgs {
   module action {
     module dds_ {
-      @appendable struct LookupTransform_Goal_ {
+      @final struct LookupTransform_Goal_ {
         string target_frame;
         string source_frame;
         builtin_interfaces::msg::dds_::Time_ source_time;

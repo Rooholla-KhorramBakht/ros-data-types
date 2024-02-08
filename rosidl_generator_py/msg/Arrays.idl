@@ -24,7 +24,7 @@
 module rosidl_generator_py {
   module msg {
     module dds_ {
-      @appendable struct Arrays_ {
+      @final struct Arrays_ {
         boolean bool_values[3];
         octet byte_values[3];
         octet char_values[3];

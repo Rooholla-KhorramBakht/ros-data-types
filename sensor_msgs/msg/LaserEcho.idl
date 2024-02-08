@@ -20,7 +20,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct LaserEcho_ {
+      @final struct LaserEcho_ {
         sequence<float> echoes;
       };
     };

@@ -20,7 +20,7 @@
 module turtlesim {
   module srv {
     module dds_ {
-      @appendable struct TeleportRelative_Request_ {
+      @final struct TeleportRelative_Request_ {
         float linear;
         float angular;
       };

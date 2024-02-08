@@ -24,7 +24,7 @@
 module pendulum_msgs {
   module msg {
     module dds_ {
-      @appendable struct RttestResults_ {
+      @final struct RttestResults_ {
         builtin_interfaces::msg::dds_::Time_ stamp;
         pendulum_msgs::msg::dds_::JointCommand_ command;
         pendulum_msgs::msg::dds_::JointState_ state;

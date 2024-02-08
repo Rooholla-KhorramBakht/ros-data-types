@@ -22,7 +22,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct Float32MultiArray_ {
+      @final struct Float32MultiArray_ {
         example_interfaces::msg::dds_::MultiArrayLayout_ layout;
         sequence<float> data;
       };

@@ -20,7 +20,7 @@
 module rosidl_generator_py {
   module msg {
     module dds_ {
-      @appendable struct Defaults_ {
+      @final struct Defaults_ {
         boolean bool_value;
         octet byte_value;
         octet char_value;

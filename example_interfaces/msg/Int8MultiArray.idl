@@ -22,7 +22,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct Int8MultiArray_ {
+      @final struct Int8MultiArray_ {
         example_interfaces::msg::dds_::MultiArrayLayout_ layout;
         sequence<octet> data;
       };

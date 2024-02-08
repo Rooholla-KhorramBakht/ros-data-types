@@ -29,7 +29,7 @@ module sensor_msgs {
         const octet COVARIANCE_TYPE_DIAGONAL_KNOWN_ = 2;
         const octet COVARIANCE_TYPE_KNOWN_ = 3;
       };
-      @appendable struct NavSatFix_ {
+      @final struct NavSatFix_ {
         std_msgs::msg::dds_::Header_ header;
         sensor_msgs::msg::dds_::NavSatStatus_ status;
         double latitude;

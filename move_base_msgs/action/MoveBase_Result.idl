@@ -20,7 +20,7 @@
 module move_base_msgs {
   module action {
     module dds_ {
-      @appendable struct MoveBase_Result_ {
+      @final struct MoveBase_Result_ {
         octet structure_needs_at_least_one_member;
       };
     };

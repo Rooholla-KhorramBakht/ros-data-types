@@ -20,7 +20,7 @@
 module test_msgs {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_Feedback_ {
+      @final struct Fibonacci_Feedback_ {
         sequence<int32> sequence_;
       };
     };

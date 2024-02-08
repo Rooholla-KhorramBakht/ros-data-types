@@ -24,7 +24,7 @@
 module trajectory_msgs {
   module msg {
     module dds_ {
-      @appendable struct MultiDOFJointTrajectoryPoint_ {
+      @final struct MultiDOFJointTrajectoryPoint_ {
         sequence<geometry_msgs::msg::dds_::Transform_> transforms;
         sequence<geometry_msgs::msg::dds_::Twist_> velocities;
         sequence<geometry_msgs::msg::dds_::Twist_> accelerations;

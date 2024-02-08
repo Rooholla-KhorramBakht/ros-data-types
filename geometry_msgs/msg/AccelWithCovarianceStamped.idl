@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct AccelWithCovarianceStamped_ {
+      @final struct AccelWithCovarianceStamped_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::AccelWithCovariance_ accel;
       };

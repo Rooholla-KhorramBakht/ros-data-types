@@ -20,7 +20,7 @@
 module test_msgs {
   module srv {
     module dds_ {
-      @appendable struct BasicTypes_Response_ {
+      @final struct BasicTypes_Response_ {
         boolean bool_value;
         octet byte_value;
         octet char_value;

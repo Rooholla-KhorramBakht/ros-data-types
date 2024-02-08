@@ -27,7 +27,7 @@ module map_msgs {
         const uint32 ADD_ = 0;
         const uint32 DELETE_ = 1;
       };
-      @appendable struct PointCloud2Update_ {
+      @final struct PointCloud2Update_ {
         std_msgs::msg::dds_::Header_ header;
         uint32 type;
         sensor_msgs::msg::dds_::PointCloud2_ points;

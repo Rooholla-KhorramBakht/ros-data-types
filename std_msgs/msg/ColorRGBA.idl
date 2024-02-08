@@ -20,7 +20,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct ColorRGBA_ {
+      @final struct ColorRGBA_ {
         float r;
         float g;
         float b;

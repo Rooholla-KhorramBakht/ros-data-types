@@ -19,7 +19,7 @@
  
 module builtin_interfaces { module msg { module dds_ { 
 
-  @appendable struct Time_ { 
+  @final struct Time_ { 
     int32 sec; 
     uint32 nanosec; 
   }; 

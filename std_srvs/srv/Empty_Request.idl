@@ -20,7 +20,7 @@
 module std_srvs {
   module srv {
     module dds_ {
-      @appendable struct Empty_Request_ {
+      @final struct Empty_Request_ {
         octet structure_needs_at_least_one_member;
       };
     };

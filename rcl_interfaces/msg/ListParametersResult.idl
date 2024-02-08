@@ -20,7 +20,7 @@
 module rcl_interfaces {
   module msg {
     module dds_ {
-      @appendable struct ListParametersResult_ {
+      @final struct ListParametersResult_ {
         sequence<string> names;
         sequence<string> prefixes;
       };

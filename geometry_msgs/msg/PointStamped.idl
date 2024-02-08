@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct PointStamped_ {
+      @final struct PointStamped_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::Point_ point;
       };

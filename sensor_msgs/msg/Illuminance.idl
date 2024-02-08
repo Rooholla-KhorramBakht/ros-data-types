@@ -22,7 +22,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct Illuminance_ {
+      @final struct Illuminance_ {
         std_msgs::msg::dds_::Header_ header;
         double illuminance;
         double variance;

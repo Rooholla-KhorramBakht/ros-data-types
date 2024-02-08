@@ -20,7 +20,7 @@
 module rosidl_generator_py {
   module msg {
     module dds_ {
-      @appendable struct StringArrays_ {
+      @final struct StringArrays_ {
         string<5> ub_string_static_array_value[3];
         sequence<string<5>,10 > ub_string_ub_array_value;
         sequence<string<5> > ub_string_dynamic_array_value;

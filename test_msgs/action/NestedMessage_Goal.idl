@@ -24,7 +24,7 @@
 module test_msgs {
   module action {
     module dds_ {
-      @appendable struct NestedMessage_Goal_ {
+      @final struct NestedMessage_Goal_ {
         test_msgs::msg::dds_::Builtins_ nested_field_no_pkg;
         test_msgs::msg::dds_::BasicTypes_ nested_field;
         builtin_interfaces::msg::dds_::Time_ nested_different_pkg;

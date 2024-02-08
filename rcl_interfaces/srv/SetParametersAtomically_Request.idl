@@ -22,7 +22,7 @@
 module rcl_interfaces {
   module srv {
     module dds_ {
-      @appendable struct SetParametersAtomically_Request_ {
+      @final struct SetParametersAtomically_Request_ {
         sequence<rcl_interfaces::msg::dds_::Parameter_> parameters;
       };
     };

@@ -22,7 +22,7 @@
 module turtlesim {
   module action {
     module dds_ {
-      @appendable struct RotateAbsolute_GetResult_Response_ {
+      @final struct RotateAbsolute_GetResult_Response_ {
         octet status;
         turtlesim::action::dds_::RotateAbsolute_Result_ result;
       };

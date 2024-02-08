@@ -20,7 +20,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct Float64_ {
+      @final struct Float64_ {
         double data;
       };
     };

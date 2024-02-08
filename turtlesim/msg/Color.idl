@@ -20,7 +20,7 @@
 module turtlesim {
   module msg {
     module dds_ {
-      @appendable struct Color_ {
+      @final struct Color_ {
         octet r;
         octet g;
         octet b;

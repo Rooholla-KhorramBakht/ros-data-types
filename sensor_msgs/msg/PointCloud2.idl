@@ -23,7 +23,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct PointCloud2_ {
+      @final struct PointCloud2_ {
         std_msgs::msg::dds_::Header_ header;
         uint32 height;
         uint32 width;

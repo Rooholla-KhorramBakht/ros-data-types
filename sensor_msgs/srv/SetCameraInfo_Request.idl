@@ -22,7 +22,7 @@
 module sensor_msgs {
   module srv {
     module dds_ {
-      @appendable struct SetCameraInfo_Request_ {
+      @final struct SetCameraInfo_Request_ {
         sensor_msgs::msg::dds_::CameraInfo_ camera_info;
       };
     };

@@ -23,7 +23,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct MagneticField_ {
+      @final struct MagneticField_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::Vector3_ magnetic_field;
         double magnetic_field_covariance[9];

@@ -22,7 +22,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Wrench_ {
+      @final struct Wrench_ {
         geometry_msgs::msg::dds_::Vector3_ force;
         geometry_msgs::msg::dds_::Vector3_ torque;
       };

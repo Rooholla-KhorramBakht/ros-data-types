@@ -22,7 +22,7 @@
 module action_tutorials_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_SendGoal_Response_ {
+      @final struct Fibonacci_SendGoal_Response_ {
         boolean accepted;
         builtin_interfaces::msg::dds_::Time_ stamp;
       };

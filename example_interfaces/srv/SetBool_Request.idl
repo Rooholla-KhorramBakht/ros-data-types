@@ -20,7 +20,7 @@
 module example_interfaces {
   module srv {
     module dds_ {
-      @appendable struct SetBool_Request_ {
+      @final struct SetBool_Request_ {
         boolean data;
       };
     };

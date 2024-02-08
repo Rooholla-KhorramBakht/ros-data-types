@@ -20,7 +20,7 @@
 module turtlesim {
   module srv {
     module dds_ {
-      @appendable struct Spawn_Response_ {
+      @final struct Spawn_Response_ {
         string name;
       };
     };

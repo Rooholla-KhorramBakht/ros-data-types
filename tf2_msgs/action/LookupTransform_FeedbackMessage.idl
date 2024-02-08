@@ -23,7 +23,7 @@
 module tf2_msgs {
   module action {
     module dds_ {
-      @appendable struct LookupTransform_FeedbackMessage_ {
+      @final struct LookupTransform_FeedbackMessage_ {
         unique_identifier_msgs::msg::dds_::UUID_ goal_id;
         tf2_msgs::action::dds_::LookupTransform_Feedback_ feedback;
       };

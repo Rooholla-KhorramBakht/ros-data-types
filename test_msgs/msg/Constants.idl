@@ -35,7 +35,7 @@ module test_msgs {
         const int64 INT64_CONST_ = -40000000;
         const uint64 UINT64_CONST_ = 50000000;
       };
-      @appendable struct Constants_ {
+      @final struct Constants_ {
         octet structure_needs_at_least_one_member;
       };
     };

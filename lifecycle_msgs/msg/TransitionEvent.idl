@@ -23,7 +23,7 @@
 module lifecycle_msgs {
   module msg {
     module dds_ {
-      @appendable struct TransitionEvent_ {
+      @final struct TransitionEvent_ {
         uint64 timestamp;
         lifecycle_msgs::msg::dds_::Transition_ transition;
         lifecycle_msgs::msg::dds_::State_ start_state;

@@ -22,7 +22,7 @@
 module example_interfaces {
   module action {
     module dds_ {
-      @appendable struct Fibonacci_GetResult_Response_ {
+      @final struct Fibonacci_GetResult_Response_ {
         octet status;
         example_interfaces::action::dds_::Fibonacci_Result_ result;
       };

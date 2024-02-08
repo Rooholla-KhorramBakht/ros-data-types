@@ -22,7 +22,7 @@
 module nav_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetPlan_Response_ {
+      @final struct GetPlan_Response_ {
         nav_msgs::msg::dds_::Path_ plan;
       };
     };

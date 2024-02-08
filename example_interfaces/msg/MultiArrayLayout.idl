@@ -22,7 +22,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct MultiArrayLayout_ {
+      @final struct MultiArrayLayout_ {
         sequence<example_interfaces::msg::dds_::MultiArrayDimension_> dim;
         uint32 data_offset;
       };

@@ -22,7 +22,7 @@
 module visualization_msgs {
   module msg {
     module dds_ {
-      @appendable struct InteractiveMarkerInit_ {
+      @final struct InteractiveMarkerInit_ {
         string server_id;
         uint64 seq_num;
         sequence<visualization_msgs::msg::dds_::InteractiveMarker_> markers;

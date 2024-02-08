@@ -22,7 +22,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Inertia_ {
+      @final struct Inertia_ {
         double m;
         geometry_msgs::msg::dds_::Vector3_ com;
         double ixx;

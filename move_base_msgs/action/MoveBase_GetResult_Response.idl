@@ -22,7 +22,7 @@
 module move_base_msgs {
   module action {
     module dds_ {
-      @appendable struct MoveBase_GetResult_Response_ {
+      @final struct MoveBase_GetResult_Response_ {
         octet status;
         move_base_msgs::action::dds_::MoveBase_Result_ result;
       };

@@ -34,7 +34,7 @@ module shape_msgs {
         const octet CONE_HEIGHT_ = 0;
         const octet CONE_RADIUS_ = 1;
       };
-      @appendable struct SolidPrimitive_ {
+      @final struct SolidPrimitive_ {
         octet type;
         sequence<double,3> dimensions;
       };

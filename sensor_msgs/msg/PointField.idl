@@ -30,7 +30,7 @@ module sensor_msgs {
         const octet FLOAT32_ = 7;
         const octet FLOAT64_ = 8;
       };
-      @appendable struct PointField_ {
+      @final struct PointField_ {
         string name;
         uint32 offset;
         octet datatype;

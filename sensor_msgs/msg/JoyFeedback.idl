@@ -25,7 +25,7 @@ module sensor_msgs {
         const octet TYPE_RUMBLE_ = 1;
         const octet TYPE_BUZZER_ = 2;
       };
-      @appendable struct JoyFeedback_ {
+      @final struct JoyFeedback_ {
         octet type;
         octet id;
         float intensity;

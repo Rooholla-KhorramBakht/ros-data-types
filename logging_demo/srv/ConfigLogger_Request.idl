@@ -20,7 +20,7 @@
 module logging_demo {
   module srv {
     module dds_ {
-      @appendable struct ConfigLogger_Request_ {
+      @final struct ConfigLogger_Request_ {
         string logger_name;
         string level;
       };

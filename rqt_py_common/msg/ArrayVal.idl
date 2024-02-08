@@ -22,7 +22,7 @@
 module rqt_py_common {
   module msg {
     module dds_ {
-      @appendable struct ArrayVal_ {
+      @final struct ArrayVal_ {
         rqt_py_common::msg::dds_::Val_ vals[5];
       };
     };

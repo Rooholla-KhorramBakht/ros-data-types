@@ -22,7 +22,7 @@
 module std_msgs {
   module msg {
     module dds_ {
-      @appendable struct MultiArrayLayout_ {
+      @final struct MultiArrayLayout_ {
         sequence<std_msgs::msg::dds_::MultiArrayDimension_> dim;
         uint32 data_offset;
       };

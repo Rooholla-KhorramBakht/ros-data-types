@@ -34,7 +34,7 @@ module visualization_msgs {
         const int32 ADD_ = 0;
         const int32 REMOVE_ = 1;
       };
-      @appendable struct ImageMarker_ {
+      @final struct ImageMarker_ {
         std_msgs::msg::dds_::Header_ header;
         string ns;
         int32 id;

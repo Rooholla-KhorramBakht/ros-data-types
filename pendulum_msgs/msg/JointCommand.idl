@@ -20,7 +20,7 @@
 module pendulum_msgs {
   module msg {
     module dds_ {
-      @appendable struct JointCommand_ {
+      @final struct JointCommand_ {
         double position;
       };
     };

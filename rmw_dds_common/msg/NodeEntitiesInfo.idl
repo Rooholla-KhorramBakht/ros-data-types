@@ -22,7 +22,7 @@
 module rmw_dds_common {
   module msg {
     module dds_ {
-      @appendable struct NodeEntitiesInfo_ {
+      @final struct NodeEntitiesInfo_ {
         string<256> node_namespace;
         string<256> node_name;
         sequence<rmw_dds_common::msg::dds_::Gid_> reader_gid_seq;

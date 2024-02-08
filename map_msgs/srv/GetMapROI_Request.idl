@@ -20,7 +20,7 @@
 module map_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetMapROI_Request_ {
+      @final struct GetMapROI_Request_ {
         double x;
         double y;
         double l_x;

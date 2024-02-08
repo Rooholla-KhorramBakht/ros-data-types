@@ -23,7 +23,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct TwistStamped_ {
+      @final struct TwistStamped_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::Twist_ twist;
       };

@@ -20,7 +20,7 @@
 module composition_interfaces {
   module srv {
     module dds_ {
-      @appendable struct ListNodes_Request_ {
+      @final struct ListNodes_Request_ {
         octet structure_needs_at_least_one_member;
       };
     };

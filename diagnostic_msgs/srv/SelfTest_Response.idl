@@ -22,7 +22,7 @@
 module diagnostic_msgs {
   module srv {
     module dds_ {
-      @appendable struct SelfTest_Response_ {
+      @final struct SelfTest_Response_ {
         string id;
         octet passed;
         sequence<diagnostic_msgs::msg::dds_::DiagnosticStatus_> status;

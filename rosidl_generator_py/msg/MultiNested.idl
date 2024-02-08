@@ -24,7 +24,7 @@
 module rosidl_generator_py {
   module msg {
     module dds_ {
-      @appendable struct MultiNested_ {
+      @final struct MultiNested_ {
         rosidl_generator_py::msg::dds_::Arrays_ array_of_arrays[3];
         rosidl_generator_py::msg::dds_::BoundedSequences_ array_of_bounded_sequences[3];
         rosidl_generator_py::msg::dds_::UnboundedSequences_ array_of_unbounded_sequences[3];

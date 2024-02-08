@@ -22,7 +22,7 @@
 module geometry_msgs {
   module msg {
     module dds_ {
-      @appendable struct Polygon_ {
+      @final struct Polygon_ {
         sequence<geometry_msgs::msg::dds_::Point32_> points;
       };
     };

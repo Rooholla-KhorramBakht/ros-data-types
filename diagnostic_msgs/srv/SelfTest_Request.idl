@@ -20,7 +20,7 @@
 module diagnostic_msgs {
   module srv {
     module dds_ {
-      @appendable struct SelfTest_Request_ {
+      @final struct SelfTest_Request_ {
         octet structure_needs_at_least_one_member;
       };
     };

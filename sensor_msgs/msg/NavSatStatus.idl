@@ -30,7 +30,7 @@ module sensor_msgs {
         const uint16 SERVICE_COMPASS_ = 4;
         const uint16 SERVICE_GALILEO_ = 8;
       };
-      @appendable struct NavSatStatus_ {
+      @final struct NavSatStatus_ {
         octet status;
         uint16 service;
       };

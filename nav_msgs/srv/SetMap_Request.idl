@@ -23,7 +23,7 @@
 module nav_msgs {
   module srv {
     module dds_ {
-      @appendable struct SetMap_Request_ {
+      @final struct SetMap_Request_ {
         nav_msgs::msg::dds_::OccupancyGrid_ map;
         geometry_msgs::msg::dds_::PoseWithCovarianceStamped_ initial_pose;
       };

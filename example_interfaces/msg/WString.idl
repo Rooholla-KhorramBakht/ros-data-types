@@ -20,7 +20,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct WString_ {
+      @final struct WString_ {
         wstring data;
       };
     };

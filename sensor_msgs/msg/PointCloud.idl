@@ -24,7 +24,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct PointCloud_ {
+      @final struct PointCloud_ {
         std_msgs::msg::dds_::Header_ header;
         sequence<geometry_msgs::msg::dds_::Point32_> points;
         sequence<sensor_msgs::msg::dds_::ChannelFloat32_> channels;

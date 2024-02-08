@@ -20,7 +20,7 @@
 module rmw_dds_common {
   module msg {
     module dds_ {
-      @appendable struct Gid_ {
+      @final struct Gid_ {
         octet data[24];
       };
     };

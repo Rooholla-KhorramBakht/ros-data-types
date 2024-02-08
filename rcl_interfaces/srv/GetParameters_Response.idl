@@ -22,7 +22,7 @@
 module rcl_interfaces {
   module srv {
     module dds_ {
-      @appendable struct GetParameters_Response_ {
+      @final struct GetParameters_Response_ {
         sequence<rcl_interfaces::msg::dds_::ParameterValue_> values;
       };
     };

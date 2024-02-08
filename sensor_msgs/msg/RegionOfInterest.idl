@@ -20,7 +20,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct RegionOfInterest_ {
+      @final struct RegionOfInterest_ {
         uint32 x_offset;
         uint32 y_offset;
         uint32 height;

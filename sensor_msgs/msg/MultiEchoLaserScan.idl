@@ -23,7 +23,7 @@
 module sensor_msgs {
   module msg {
     module dds_ {
-      @appendable struct MultiEchoLaserScan_ {
+      @final struct MultiEchoLaserScan_ {
         std_msgs::msg::dds_::Header_ header;
         float angle_min;
         float angle_max;

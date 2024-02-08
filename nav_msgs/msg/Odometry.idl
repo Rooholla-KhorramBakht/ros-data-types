@@ -24,7 +24,7 @@
 module nav_msgs {
   module msg {
     module dds_ {
-      @appendable struct Odometry_ {
+      @final struct Odometry_ {
         std_msgs::msg::dds_::Header_ header;
         string child_frame_id;
         geometry_msgs::msg::dds_::PoseWithCovariance_ pose;

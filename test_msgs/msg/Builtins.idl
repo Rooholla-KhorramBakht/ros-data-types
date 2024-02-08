@@ -23,7 +23,7 @@
 module test_msgs {
   module msg {
     module dds_ {
-      @appendable struct Builtins_ {
+      @final struct Builtins_ {
         builtin_interfaces::msg::dds_::Duration_ duration_value;
         builtin_interfaces::msg::dds_::Time_ time_value;
       };

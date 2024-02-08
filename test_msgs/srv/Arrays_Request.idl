@@ -24,7 +24,7 @@
 module test_msgs {
   module srv {
     module dds_ {
-      @appendable struct Arrays_Request_ {
+      @final struct Arrays_Request_ {
         boolean bool_values[3];
         octet byte_values[3];
         octet char_values[3];

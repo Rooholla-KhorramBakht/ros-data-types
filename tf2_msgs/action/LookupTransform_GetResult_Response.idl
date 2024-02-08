@@ -22,7 +22,7 @@
 module tf2_msgs {
   module action {
     module dds_ {
-      @appendable struct LookupTransform_GetResult_Response_ {
+      @final struct LookupTransform_GetResult_Response_ {
         octet status;
         tf2_msgs::action::dds_::LookupTransform_Result_ result;
       };

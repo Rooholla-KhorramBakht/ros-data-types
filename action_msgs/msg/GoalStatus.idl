@@ -31,7 +31,7 @@ module action_msgs {
         const octet STATUS_CANCELED_ = 5;
         const octet STATUS_ABORTED_ = 6;
       };
-      @appendable struct GoalStatus_ {
+      @final struct GoalStatus_ {
         action_msgs::msg::dds_::GoalInfo_ goal_info;
         octet status;
       };

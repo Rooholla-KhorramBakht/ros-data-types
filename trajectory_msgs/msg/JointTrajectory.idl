@@ -23,7 +23,7 @@
 module trajectory_msgs {
   module msg {
     module dds_ {
-      @appendable struct JointTrajectory_ {
+      @final struct JointTrajectory_ {
         std_msgs::msg::dds_::Header_ header;
         sequence<string> joint_names;
         sequence<trajectory_msgs::msg::dds_::JointTrajectoryPoint_> points;

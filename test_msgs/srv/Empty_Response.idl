@@ -20,7 +20,7 @@
 module test_msgs {
   module srv {
     module dds_ {
-      @appendable struct Empty_Response_ {
+      @final struct Empty_Response_ {
         octet structure_needs_at_least_one_member;
       };
     };

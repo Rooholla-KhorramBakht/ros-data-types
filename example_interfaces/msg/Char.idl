@@ -20,7 +20,7 @@
 module example_interfaces {
   module msg {
     module dds_ {
-      @appendable struct Char_ {
+      @final struct Char_ {
         octet data;
       };
     };

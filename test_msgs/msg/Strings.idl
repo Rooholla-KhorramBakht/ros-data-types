@@ -23,7 +23,7 @@ module test_msgs {
       module Strings_Constants {
         const string STRING_CONST_ = "Hello world!";
       };
-      @appendable struct Strings_ {
+      @final struct Strings_ {
         string string_value;
         string string_value_default1;
         string string_value_default2;

@@ -52,7 +52,7 @@ module lifecycle_msgs {
         const octet TRANSITION_CALLBACK_FAILURE_ = 98;
         const octet TRANSITION_CALLBACK_ERROR_ = 99;
       };
-      @appendable struct Transition_ {
+      @final struct Transition_ {
         octet id;
         string label;
       };

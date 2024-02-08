@@ -23,7 +23,7 @@
 module rmw_dds_common {
   module msg {
     module dds_ {
-      @appendable struct ParticipantEntitiesInfo_ {
+      @final struct ParticipantEntitiesInfo_ {
         rmw_dds_common::msg::dds_::Gid_ gid;
         sequence<rmw_dds_common::msg::dds_::NodeEntitiesInfo_> node_entities_info_seq;
       };

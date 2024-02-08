@@ -20,7 +20,7 @@
 module map_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetPointMap_Request_ {
+      @final struct GetPointMap_Request_ {
         octet structure_needs_at_least_one_member;
       };
     };

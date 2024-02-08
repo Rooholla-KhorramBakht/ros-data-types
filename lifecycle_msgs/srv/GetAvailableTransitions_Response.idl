@@ -22,7 +22,7 @@
 module lifecycle_msgs {
   module srv {
     module dds_ {
-      @appendable struct GetAvailableTransitions_Response_ {
+      @final struct GetAvailableTransitions_Response_ {
         sequence<lifecycle_msgs::msg::dds_::TransitionDescription_> available_transitions;
       };
     };

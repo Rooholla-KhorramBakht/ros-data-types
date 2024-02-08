@@ -20,7 +20,7 @@
 module example_interfaces {
   module srv {
     module dds_ {
-      @appendable struct AddTwoInts_Request_ {
+      @final struct AddTwoInts_Request_ {
         int64 a;
         int64 b;
       };

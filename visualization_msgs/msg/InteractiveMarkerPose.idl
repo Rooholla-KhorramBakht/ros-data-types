@@ -23,7 +23,7 @@
 module visualization_msgs {
   module msg {
     module dds_ {
-      @appendable struct InteractiveMarkerPose_ {
+      @final struct InteractiveMarkerPose_ {
         std_msgs::msg::dds_::Header_ header;
         geometry_msgs::msg::dds_::Pose_ pose;
         string name;
